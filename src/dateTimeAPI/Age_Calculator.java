@@ -11,6 +11,7 @@ public class Age_Calculator
 {
     public static void main(String[] args)
     {
+System.out.println("Age calculator program");
         LocalDate date = LocalDate.now();
         LocalDate dob = LocalDate.of(1996,05,06);
 //        System.out.println(Period.between(dob,date));
