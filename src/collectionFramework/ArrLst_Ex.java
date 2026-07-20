@@ -9,6 +9,7 @@ public class ArrLst_Ex
 {
     public static void main(String[] args)
     {
+System.out.println("ArrayList demo program");
      // ArrayList can be created in different ways
      // using the new
         System.out.println("Using the new");
@@ -25,7 +26,7 @@ public class ArrLst_Ex
      List<Integer> l2 = List.of(2,4,6,8);
 //     l2.stream().map(l->l*l).collect(Collectors.toList()).forEach(System.out::println);
      l2.stream().map(l->l*l).forEach(System.out::println);
-        System.out.println("***************");
+        System.out.println("/n***************/n");
 
     // using Arrays.asList()
         System.out.println("Using Arrays.asList");
