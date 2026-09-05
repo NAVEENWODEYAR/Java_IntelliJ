@@ -22,6 +22,7 @@ public class Null_Ptr_Ex
                 else
                 {
                     System.out.println("You begger");
+System.out.println("Optional class demo");
                 }
     }
 }
