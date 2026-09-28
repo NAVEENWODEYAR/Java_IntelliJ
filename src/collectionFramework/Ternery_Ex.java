@@ -7,6 +7,6 @@ public class Ternery_Ex
      // Ternery operator
      int a = 5, b=10;
      int max = (a>b)? a:b;
-        System.out.println("Maximum value, using ternary operator "+max);
+        System.out.println("Maximum value between two variables, using ternary operator "+max);
     }
 }
