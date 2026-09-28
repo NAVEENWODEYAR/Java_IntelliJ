@@ -9,6 +9,7 @@ public class DigitStartsWith_Ex
 {
     public static void main(String[] args)
     {
+System.out.println("filter function"):
         List <Integer> numList = List.of(2,3,21,4,22,5,23,6,24,7,25,8,9,4);
             numList.stream().map((num)-> String.valueOf(num))
                     .filter(num->num.startsWith("2")).collect(Collectors.toList())
