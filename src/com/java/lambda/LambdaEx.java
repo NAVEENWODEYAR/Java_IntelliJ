@@ -14,6 +14,7 @@ public class LambdaEx
     }
     public static void main(String args[])
     {
+System.out.println("Lambda expression");
         System.out.println(add_No(4,5));
 
         // lambda expression
