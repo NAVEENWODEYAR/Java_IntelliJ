@@ -8,6 +8,7 @@ public class StreamAPI_Ex
 {
     public static void main(String[] args)
     {
+System.out.println("Streams demo");
      // Stream API
      ArrayList<String> al = new ArrayList();
         al.add("Annie");
