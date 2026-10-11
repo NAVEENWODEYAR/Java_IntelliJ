@@ -30,7 +30,7 @@ System.out.println("ArrayList demo program");
 
     // using Arrays.asList()
         System.out.println("Using Arrays.asList");
-        Arrays.asList("One","two","three","four","five")
+        Arrays.asList("One","two","three","four","five","six")
                 .stream().filter(s->s.length()>=4).forEach(System.out::println);
     }
 }
